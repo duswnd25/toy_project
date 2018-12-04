@@ -1,0 +1,34 @@
+{
+  "name": "steemitor",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "New Article Notifier for Steemit",
+  "homepage_url": "https://github.com/duswnd25/steemitor",
+  "author": "YeonJung Kim",
+  "icons": {
+    "16": "./icons/icon16.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "notifications"
+  ],
+  "background": {
+    "persistent": true,
+    "page" : "background.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "./icons/icon16.png",
+      "48": "./icons/icon48.png",
+      "128": "./icons/icon128.png"
+    },
+    "default_title": "Steemitor",
+    "default_popup": "./src/popup.html"
+  },
+  "web_accessible_resources": [
+    "./icons/icon48.png"
+  ]
+}

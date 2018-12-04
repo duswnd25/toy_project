@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="개발자"/>
+
+    <PreferenceScreen
+        android:summary="컴퓨터 정보 공학부 14학번"
+        android:title="김연중"/>
+    <PreferenceScreen
+        android:key="question_to_admin"
+        android:summary="광고/건의/기타"
+        android:title="문의하기"/>
+</PreferenceScreen>

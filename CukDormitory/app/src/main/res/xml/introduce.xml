@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="developer"
+        android:title="개발자" >
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="developer"
+        android:summary="컴퓨터 정보 공학부 14학번"
+        android:title="김연중" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="license"
+        android:summary="본 어플리케이션 의 저작권에 대해 명시합니다."
+        android:title="저작권 안내" >
+        <PreferenceCategory
+            android:key="license"
+            android:title="저작권 명시" >
+        </PreferenceCategory>
+
+        <PreferenceScreen
+            android:key="license_use"
+            android:summary="Creative Commons License\n\n이 라이선스는 출처를 명시하고 해당 콘텐츠를 상업적 용도로 사용할 수 없으며, 같은 CC BY-NC-SA 라이선스를 사용해야 함을 명시합니다."
+            android:title="CC BY-NC-SA" >
+        </PreferenceScreen>
+        <PreferenceScreen android:summary="본 어플리케이션의 원본 소스는 이후 어플리케이션의 유지/보수에 적극 동참하겠다는 전제조건 하에 제공됩니다.\n\n자세한 내용은 운영팀에 문의해 주십시오.\n\n만일 본 어플리케이션의 컨텐츠가 자신의 저작권을 위반한다고 생각될 경우 플레이스토어의 본 앱의 설치페이지 하단의 이메일 보내기를 이용해 주십시오." >
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="opensource_license"
+        android:summary="이 앱에 사용된 오픈소스의 라이선스를 고지합니다."
+        android:title="오픈 소스 라이선스" >
+        <PreferenceScreen
+            android:key="menudrawer"
+            android:summary="Copyright 2012 Jake Wharton\n\nLicensed under the Apache License, Version 2.0 (the &apos;License&apos;)\n\n
+you may not use this file except in compliance with the License.\n
+You may obtain a copy of the License at\n\n
+http://www.apache.org/licenses/LICENSE-2.0"
+            android:title="MenuDrawer" >
+        </PreferenceScreen>
+        <PreferenceScreen android:summary="
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an AS IS BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License." >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="actionbarsherlock"
+            android:summary="Copyright 2012 Simon Vig Therkildsen\n\nLicensed under the Apache License, Version 2.0 (the &apos;License&apos;)\n\n
+you may not use this file except in compliance with the License.\n
+You may obtain a copy of the License at\n\n
+http://www.apache.org/licenses/LICENSE-2.0"
+            android:title="Actionbar Sherlock" >
+        </PreferenceScreen>
+        <PreferenceScreen android:summary="
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an AS IS BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License." >
+        </PreferenceScreen>
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="thanks_upper"
+        android:title="" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="thanks"
+        android:title="아래는 개발에 도움을 주신 분들 입니다." >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="thanks_under"
+        android:title="" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="support"
+        android:title="지원" >
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="support"
+        android:summary="국제학사 운영팀"
+        android:title="국제학사 운영팀" >
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="Original_developer"
+        android:title="기존 개발자" >
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="original_developer"
+        android:summary="컴퓨터 정보 공학부"
+        android:title="김형종" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="original_planners"
+        android:summary="법학부"
+        android:title="한정익" >
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="technical_support"
+        android:title="기술지원" >
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="technical_support"
+        android:summary="컴퓨터 정보 공학부 09학번"
+        android:title="김태균" >
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="ui_design"
+        android:title="UI 디자인" >
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="ui_design"
+        android:summary="컴퓨터 정보 공학부 13학번"
+        android:title="양종률" >
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="quality_assurance"
+        android:title="품질관리지원(테스트)" >
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="quality_assurance0"
+        android:summary="10대 사생회 한울 회장"
+        android:title="정종혁" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="quality_assurance1"
+        android:summary="가톨릭 학생회"
+        android:title="소피바라" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="quality_assurance2"
+        android:summary="정보통신공학부 14학번"
+        android:title="유병재" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="quality_assurance3"
+        android:summary="사회과학부 14학번"
+        android:title="조안상" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="quality_assurance4"
+        android:summary="사회과학부 14학번"
+        android:title="양석우" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="전화">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="alert_call"
+            android:summary="저장된 연락처로부터의 전화수신시 메시지를 띄웁니다."
+            android:title="전화 알림"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="alert_call"
+            android:key="alert_call_block"
+            android:summary="차단한 연락처로부터의 전화수신시 메시지를 띄웁니다."
+            android:title="차단 연락처 전화 알림"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="alert_call"
+            android:key="alert_call_block_no"
+            android:summary="차단하지 않은 연락처로부터의 전화수신시 메시지를 띄웁니다."
+            android:title="비차단 연락처 전화 알림"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="문자">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="alert_message"
+            android:summary="저장된 연락처로부터의 문자수신을 알립니다."
+            android:title="문자 알림"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="alert_message"
+            android:key="alert_message_block"
+            android:summary="차단한 사용자의 문자를 알립니다."
+            android:title="차단 사용자 문자 알림"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="alert_message"
+            android:key="alert_message_block_no"
+            android:summary="차단하지 않은 사용자의 문자를 알립니다."
+            android:title="비차단 사용자 문자 알림"/>
+    </PreferenceCategory>
+</PreferenceScreen>

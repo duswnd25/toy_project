@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_pad">16dp</dimen>
+    <dimen name="pad_4">4dp</dimen>
+    <dimen name="pad_8">8dp</dimen>
+    <dimen name="greeting_message_size">56sp</dimen>
+    <dimen name="city_text_size">48sp</dimen>
+    <dimen name="information_text_size">32sp</dimen>
+    <dimen name="icon_default_size">48dp</dimen>
+</resources>

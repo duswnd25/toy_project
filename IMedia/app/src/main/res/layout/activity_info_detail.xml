@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context="app.kimyeonjung.sid_radio.ui.info.InfoDetail">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="@dimen/interval_16">
+
+        <TextView
+            android:id="@+id/activity_info_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardUseCompatPadding="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.melnykov.fab.ObservableScrollView
+                android:id="@+id/activity_info_detail_content_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/activity_info_detail_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="@dimen/interval_16"/>
+            </com.melnykov.fab.ObservableScrollView>
+
+            <com.melnykov.fab.FloatingActionButton
+                android:id="@+id/activity_info_detail_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/interval_16"
+                android:src="@android:drawable/ic_menu_send"
+                app:fab_colorNormal="@color/cyan_400"
+                app:fab_colorPressed="@color/cyan_600"
+                app:fab_colorRipple="@color/cyan_200"/>
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

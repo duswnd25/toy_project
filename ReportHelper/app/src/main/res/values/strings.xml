@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">레포트 보이스</string>
+    <string name="result_hint">음성인식이 완료되면 결과가 입력됩니다.</string>
+    <string name="send">전송</string>
+    <string name="title_activity_user_info">사용자 정보</string>
+    <string name="loading">로딩중</string>
+    <string name="action_menu">메뉴</string>
+        <string name="title_activity_account">계정</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+        <string name="title_activity_usage">사용기록</string>
+</resources>

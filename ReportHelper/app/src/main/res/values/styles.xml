@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CatHelper" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/indigo_600</item>
+        <item name="colorPrimary">@color/indigo_800</item>
+        <item name="colorPrimaryDark">@color/indigo_900</item>
+        <item name="colorControlNormal">@color/indigo_800</item>
+        <item name="colorControlHighlight">@color/indigo_A200</item>
+    </style>
+</resources>

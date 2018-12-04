@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">리마인드::미</string>
+    <string name="action_settings">설정</string>
+    <string name="title_recent_log">최근 통계</string>
+    <string name="title_manage_list">관리 목록</string>
+    <string name="loading">불러오는중…</string>
+    <string name="really_delete">삭제할까요?</string>
+    <string name="delete_ok">삭제하였습니다.</string>
+    <string name="delete_fail">삭제실패</string>
+    <string name="title_activity_new_contact">새 연락처</string>
+    <string name="name">이름</string>
+    <string name="phone">전화번호</string>
+    <string name="suggest_contact">오랜만에 연락해보는 건 어떨까요?</string>
+    <string name="recent_connect">최근 연락일</string>
+    <string name="save">저장</string>
+    <string name="from_contact">주소록에서 불러오기</string>
+    <string name="really_call">전화 걸까요?</string>
+    <string name="memo">메모</string>
+    <string name="block">연락하고 싶지 않나요?</string>
+    <string name="manage">관리가 필요없나요?</string>
+    <string name="out_call">발신한 전화</string>
+    <string name="in_call">수신한 전화</string>
+    <string name="miss_call">부재중 전화</string>
+    <string name="reject_call">거절한 전화</string>
+
+    <array name="add_contact_type">
+        <item>전화번호부</item>
+        <item>직접입력</item>
+    </array>
+    <string name="title_activity_person_detail_view">상세정보</string>
+</resources>

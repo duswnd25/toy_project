@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <!-- 상단 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <!-- 상단 좌측 -->
+
+        <LinearLayout
+            android:id="@+id/out_main"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#ae3b23"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center|start"
+                android:clickable="false"
+                android:src="@drawable/out" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center"
+                android:clickable="false"
+                android:gravity="center"
+                android:lines="1"
+                android:text="@string/out"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- 상단 우측 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- 상단 우측 상단 -->
+
+            <LinearLayout
+                android:id="@+id/restaurant_main"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#c9363a"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center|start"
+                    android:clickable="false"
+                    android:src="@drawable/restaurant" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/restaurant"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- 상단 우측 하단 -->
+
+            <LinearLayout
+                android:id="@+id/school_main"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#efbb46"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center|start"
+                    android:clickable="false"
+                    android:src="@drawable/school" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/school"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 중간 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- 중간좌측 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- 중간좌측 상단 -->
+
+            <LinearLayout
+                android:id="@+id/facebook_main"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="#c9363a"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center|start"
+                    android:clickable="false"
+                    android:src="@drawable/notice" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/notice"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- 중간 좌측 하단 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/propose_main"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#efbb46"
+                    android:src="@drawable/propose" />
+
+                <ImageView
+                    android:id="@+id/calendar_main"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#efbb46"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 중간 우측 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- 중간 우측 상단 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/setting_main"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="#efbb46"
+                    android:src="@drawable/setting" />
+
+                <ImageView
+                    android:id="@+id/call_main"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="#efbb46"
+                    android:src="@drawable/call" />
+            </LinearLayout>
+
+            <!-- 중간 우측 하단 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1" >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:onClick="goCukholic"
+                        android:src="@drawable/cukholic" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/about_main"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#efbb46"
+                    android:src="@drawable/about" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 하단 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|center"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/main_bottom_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="goCukholic"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bottom" />
+    </FrameLayout>
+
+</LinearLayout>

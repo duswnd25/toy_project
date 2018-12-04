@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:enabled="true"
+        android:title="문의">
+        <Preference
+            android:key="contact_to_dev"
+            android:title="문의하기"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">CUK 宿舍</string>
+    <string name="back">按下回来退出应用程序.</string>
+    <string name="update">应用UI设计变更（由设计양종률）\n\n倍速提高</string>
+    <string name="update_history">更新历史</string>
+    <string name="loading">载入中.........</string>
+    <string name="wait">请稍候分钟.</string>
+    <string name="thanks">Thanks\n\n가톨릭 학생회 소피바라\n\n제 10대 사생회 한울\n\n컴퓨터정보공학부 김형종\n\n컴퓨터정보공학부 김태균\n\n컴퓨터정보공학부 양종률\n\n정보통신공학부 유병재\n\n사회과학부 조안상\n\n사회과학부 양석우\n\n\n\n제작\n\n컴퓨터정보공학부 김연중</string>
+    <string name="back_web">记者再次回到退出首页.</string>
+    
+    <!--  외출외박신청에 사용되는 String -->
+    
+    <string name="out_result">请选择郊游或留宿.</string>
+    <string name="out_name">名称 :</string>
+    <string name="out_name_sub">请输入名存实亡！ EX）詹姆斯</string>
+    <string name="out_room">Room :</string>
+    <string name="out_room_sub">请只输入数字 ex) 601</string>
+    <string name="out_submit">提交</string>
+    <string name="out_submit_list">提交列表</string>
+    <string name="out_send_phone_number_alert_text">为防止不良目的，我们收集设备的唯一编号。 （EX：提交人彻夜狂欢)</string>
+    <string name="out_outing">郊游</string>
+    <string name="out_sleepover">彻夜狂欢</string>
+    
+    <!-- 메뉴 String -->
+    
+    <string name="user">关于</string>
+    <string name="notice">通知</string>
+    <string name="out">郊游/彻夜狂欢</string>
+    <string name="calendar">日历</string>
+    <string name="restaurant">餐厅</string>    
+    <string name="propose">商情</string>
+    <string name="setting">环境</string>
+    <string name="school">网上校园/库</string>
+    
+    
+    <!-- 자동로그인에 사용되는  String -->
+    
+    <string name="autolog_set_title">自动登录有效/无效</string>
+    <string name="autolog_active">活跃</string>
+    <string name="autolog_Inactive">不活跃</string>
+    <string name="autolog_alert_autolog_fail">if you fail to auto login, please check your id or password\nautolog service based on school official application</string>
+    <string name="autolog_id">ID : </string>
+    <string name="autolog_pw">PW : </string>
+    <string name="autolog_hint_id">用户ID登录</string>
+    <string name="autolog_hint_pw">用户密码进行登录</string>
+    <string name="autolog_save_id">保存ID：</string>
+    <string name="autolog_save">节省</string>
+    <string name="activate_autolog">你想有效/无效自动登录？</string>
+    
+    <!-- 학교메뉴에 사용되는 String -->
+    <string name="login">注册</string>
+    <string name="library_menu">if you select CUK Dormitory (at Left Top) you can see borrow state, reservation book and previous menu</string>
+    <string name="grade">Please press Final grade or grade Lookup</string>
+    
+    <!-- 사이드메뉴 정보 String -->
+    <string name="side_info_main">This is main page.\n하단의 외출/외박, 건의, 일정 또는 식단 버튼을 눌러 원하는 메뉴로 이동하세요.</string>
+    <string name="side_info_out">This page is page for submit outing for sleepover</string>
+    <string name="side_info_calendar">This page is page for Dormitory schedule</string>
+    <string name="side_info_food">This page show that IH building restaurant food table</string>
+    <string name="side_info_propose">이 페이지는 기숙사 건의사항 전송 입니다.\n사생회 및 운영팀에서 동시에 관리하므로 최대한 신속하게 도움을 받으실 수 있습니다.\n\n처리하는데 시간이 소요될 수 있으므로 처리완료까지 기다려 주세요.</string>
+    
+    
+    <!-- 건의사항 -->
+    <string name = "select_propose_type">请使用宿舍的网页 - >帮助 - >设施坏了菜单的情况下faacility破（EX：灯，门等）</string>
+    
+
+</resources>

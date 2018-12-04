@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              tools:context="app.kimyeonjung.remindme.ui.NewContact">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/interval_8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_contact_info_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/brown_800"
+            android:text="@android:string/cancel"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/activity_contact_info_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/brown_800"
+            android:text="@string/save"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/interval_8"
+        android:paddingEnd="@dimen/interval_16"
+        android:paddingLeft="@dimen/interval_16"
+        android:paddingRight="@dimen/interval_16"
+        android:paddingStart="@dimen/interval_16"
+        android:paddingTop="@dimen/interval_8">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/activity_main_image"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:src="@drawable/ic_account"
+            app:border_color="@color/brown_600"
+            app:border_width="2dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/interval_8"
+            android:layout_marginStart="@dimen/interval_8"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/activity_contact_info_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/interval_8"
+                android:layout_marginStart="@dimen/interval_8"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/grey_700"
+                app:met_floatingLabel="normal"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/activity_contact_info_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/interval_8"
+                android:layout_marginStart="@dimen/interval_8"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/grey_700"
+                app:met_floatingLabel="normal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/interval_8"
+        android:paddingEnd="@dimen/interval_16"
+        android:paddingLeft="@dimen/interval_16"
+        android:paddingRight="@dimen/interval_16"
+        android:paddingStart="@dimen/interval_16"
+        android:paddingTop="@dimen/interval_8">
+
+        <ImageView
+            android:id="@+id/activity_contact_info_manage_image"
+            android:layout_width="@dimen/default_icon_size"
+            android:layout_height="@dimen/default_icon_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_watch"/>
+
+        <Switch
+            android:id="@+id/activity_contact_info_manage_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/interval_8"
+            android:layout_marginStart="@dimen/interval_8"
+            android:text="@string/manage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/interval_8"
+        android:paddingEnd="@dimen/interval_16"
+        android:paddingLeft="@dimen/interval_16"
+        android:paddingRight="@dimen/interval_16"
+        android:paddingStart="@dimen/interval_16"
+        android:paddingTop="@dimen/interval_8">
+
+        <ImageView
+            android:id="@+id/activity_contact_info_block_image"
+            android:layout_width="@dimen/default_icon_size"
+            android:layout_height="@dimen/default_icon_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_call"/>
+
+        <Switch
+            android:id="@+id/activity_contact_info_block_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/interval_8"
+            android:layout_marginStart="@dimen/interval_8"
+            android:text="@string/block"/>
+
+    </LinearLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/activity_contact_info_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/interval_16"
+        android:hint="@string/memo"
+        android:inputType="textMultiLine"
+        app:met_floatingLabel="normal"
+        app:met_iconLeft="@drawable/ic_edit"/>
+
+
+</LinearLayout>

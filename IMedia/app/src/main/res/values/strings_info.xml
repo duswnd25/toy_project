@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_info_detail">상세정보</string>
+    <string name="share">공유하기</string>
+    <string name="title_activity_info">정보</string>
+    <string-array name="info_spinner_arr">
+        <item>공지사항</item>
+        <item>레이블 뉴스</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.kimyeonjung.sid_radio.ui.EventMapView">
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/activity_event_map_view_fab_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        fab:fab_addButtonColorNormal="@android:color/white"
+        fab:fab_addButtonColorPressed="@color/pink_400"
+        fab:fab_addButtonPlusIconColor="@color/indigo_400"
+        fab:fab_addButtonSize="normal"
+        fab:fab_addButtonStrokeVisible="false"
+        fab:fab_expandDirection="up"
+        fab:fab_labelStyle="@style/fab_labels_style"
+        fab:fab_labelsPosition="left">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_event_map_view_inno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/brown_700"
+            fab:fab_colorPressed="@color/brown_400"
+            fab:fab_icon="@drawable/ic_cafe_white"
+            fab:fab_size="normal"
+            fab:fab_title="아틀리에 이노"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_event_map_view_indi_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/indigo_700"
+            fab:fab_colorPressed="@color/indigo_400"
+            fab:fab_icon="@drawable/ic_maps_play_white"
+            fab:fab_size="normal"
+            fab:fab_title="건대 인디스타"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_event_map_view_queen_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@android:color/black"
+            fab:fab_colorPressed="@color/grey_400"
+            fab:fab_icon="@drawable/ic_maps_play_white"
+            fab:fab_size="normal"
+            fab:fab_title="퀸 라이브홀"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_event_map_view_bora_park"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/dark_purple_700"
+            fab:fab_colorPressed="@color/dark_purple_400"
+            fab:fab_icon="@drawable/ic_maps_place_white"
+            fab:fab_size="normal"
+            fab:fab_title="보라매 공원"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_event_map_view_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/pink_600"
+            fab:fab_colorPressed="@color/pink_400"
+            fab:fab_icon="@drawable/ic_maps_my_location_white"
+            fab:fab_size="normal"
+            fab:fab_title="내 위치"/>
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

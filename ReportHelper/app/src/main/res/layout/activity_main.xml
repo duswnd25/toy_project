@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+              tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/indigo_600"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_send"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_cloud_upload_white"
+            android:drawableStart="@drawable/ic_cloud_upload_white"
+            android:text="@string/send"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_label"/>
+
+        <TextView
+            android:id="@+id/main_copy"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_send_white"
+            android:drawableStart="@drawable/ic_send_white"
+            android:text="@android:string/copy"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_label"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/main_start_record"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_voice_white_48"
+            app:cb_color="@color/indigo_600"
+            app:cb_pressedRingWidth="8dip"/>
+
+
+        <EditText
+            android:id="@+id/main_result_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/interval_16"
+            android:hint="@string/result_hint"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

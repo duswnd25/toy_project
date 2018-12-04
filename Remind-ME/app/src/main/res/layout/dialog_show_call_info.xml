@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="@dimen/interval_8"
+        android:layout_marginStart="@dimen/interval_8"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_block"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/interval_16">
+
+            <TextView
+                android:id="@+id/dialog_show_call_info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/interval_8"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/dialog_show_call_info_memo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:text="New Text"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/dialog_show_call_info_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/brown_600"
+        android:text="@android:string/ok"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

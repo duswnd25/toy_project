@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tag">VISION MIRROR</string>
+    <string name="app_name">Vision Mirror</string>
+    <string name="permission_camera_rationale">얼굴을 찾기 위해 카메라에 접근해야 합니다.</string>
+    <string name="no_camera_permission">카메라 권한이 없기 때문에 앱이 종료됩니다.</string>
+
+    <string name="temp_c">°C</string>
+    <string name="temp_f">°F</string>
+
+    <string name="weather_image_description">날씨 이미지</string>
+
+    <!-- ====================== TITLE ========================= -->
+    <string name="title_activity_settings">설정</string>
+
+    <!-- ====================== PREF ========================== -->
+    <string name="user_name_pref">user_name</string>
+    <string name="use_temp_type_c_pref">use_temp_type_c</string>
+    <string name="use_tts_pref">use_tts</string>
+
+    <!-- ====================== SETTING ======================= -->
+    <string name="user_name">사용자 이름</string>
+    <string name="use_tts">음성출력을 사용합니다.</string>
+    <string name="use_temp_c">날씨 단위를 °C 로 표시합니다.</string>
+
+    <!-- ===================== GREETING ======================= -->
+    <string-array name="greeting_messages">
+        <item>안녕하세요.</item>
+        <item>반갑습니다.</item>
+        <item>환영합니다.</item>
+    </string-array>
+
+    <!-- ===================== HAPPINESS ====================== -->
+    <string-array name="happiness_array">
+        <item>이보다 더 좋을 수 없죠!</item>
+        <item>오늘도 최고의 하루!</item>
+        <item>오늘도 힘차게!</item>
+        <item>내일은 오늘보다 더 좋은하루가 될꺼에요!</item>
+        <item>오늘은 좋은일이 있을꺼에요!</item>
+        <item>한번 웃어보는게 어떨까요?</item>
+        <item>오늘 무슨 일이 있으신가요?</item>
+        <item>기운내세요!</item>
+    </string-array>
+
+    <!-- ========================= NEWS ====================== -->
+    <string name="news_url">https://news.google.com/news/rss/?ned=kr&amp;gl=KR&amp;hl=ko</string>
+</resources>

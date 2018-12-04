@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/greeting_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:alpha="0.5"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/greeting_greeting_message"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:maxLines="1"
+        android:padding="@dimen/default_pad"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/greeting_message_size"
+        android:textStyle="bold"
+        app:sizeToFit="true"
+        tools:showIn="@layout/activity_main"
+        tools:text="안녕하세요."
+        tools:textSize="50sp" />
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/greeting_happiness_messsage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:maxLines="1"
+        android:padding="@dimen/default_pad"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/greeting_message_size"
+        android:textStyle="bold"
+        app:sizeToFit="true"
+        tools:showIn="@layout/activity_main"
+        tools:text="오늘도 힘찬 하루가 될꺼에요."
+        tools:textSize="50sp" />
+</LinearLayout>

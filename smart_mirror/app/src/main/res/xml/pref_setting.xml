@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Hey"
+        android:key="@string/user_name_pref"
+        android:title="@string/user_name" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/use_temp_type_c_pref"
+        android:title="@string/use_temp_c" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/use_tts_pref"
+        android:title="@string/use_tts" />
+</PreferenceScreen>

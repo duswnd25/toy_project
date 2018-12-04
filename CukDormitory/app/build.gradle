@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "app.kimyeonjung.cuk_dom"
+        minSdkVersion 11
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':library_SlidingMenu')
+    dependencies {
+        compile('de.keyboardsurfer.android.widget:crouton:1.8.5@aar') {
+            // exclusion is not necessary, but generally a good idea.
+            exclude group: 'com.google.android', module: 'support-v4'
+        }
+    }
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile files('libs/bolts-android-1.1.4-javadoc.jar')
+    compile files('libs/bolts-android-1.1.4.jar')
+    compile files('libs/Parse-1.8.2.jar')
+}

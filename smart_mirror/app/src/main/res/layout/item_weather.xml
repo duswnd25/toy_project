@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:gravity="center|start"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/default_pad"
+    tools:showIn="@layout/activity_main">
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/weather_city_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/city_text_size"
+        android:textStyle="bold"
+        android:singleLine="true"
+        app:sizeToFit="true"
+        tools:text="INCHEON" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/weather_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/weather_image_description"
+            android:scaleType="centerInside"
+            tools:src="@drawable/cloudy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/weather_temp_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                app:sizeToFit="true"
+                tools:text="60°C" />
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/weather_summary_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="4dp"
+                android:textColor="@android:color/white"
+                app:sizeToFit="true"
+                tools:text="SUNNY" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

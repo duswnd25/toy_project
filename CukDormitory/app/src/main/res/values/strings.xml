@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splash_text">국제학사</string>
+    <string name="app_name">국제학사</string>
+    <string name="back">Back버튼을 한번더 누르면 종료합니다.</string>
+    <string name="update">학교생활 중심 쿠콜릭을 설치해 보세요!</string>
+    <string name="update_history">업데이트 내역</string>
+    <string name="loading">로딩중.........</string>
+    <string name="wait">잠시만 기다려주세요.</string>
+    <string name="thanks">Thanks\n\n가톨릭 학생회 소피바라\n\n\n컴퓨터정보공학부 김형종\n\n컴퓨터정보공학부 김태균\n\n제 10대 사생회 한울 회장 정종혁\n\n컴퓨터정보공학부 양종률\n\n정보통신공학부 유병재\n\n사회과학부 조안상\n\n사회과학부 양석우\n\n\n\n제작\n\n컴퓨터정보공학부 김연중\n</string>
+    <string name="back_web">Back버튼을 한번더 누르면 메인 페이지로 이동합니다.</string>
+    <string name="net_error">인터넷 연결 실패!</string>
+    <string name="net_error_message">Wifi/3G/LTE/Wibro 등의 인터넷 연결을 확인해 주세요.</string>
+    <string name="calcel">닫기</string>
+    <string name="setting_delete">삭제 완료</string>
+    <string name="admin_device_title">기기정보</string>
+    <string name="admin_log_title">최근 로그</string>
+    <string name="pull_screen_right">화면을 오른쪽으로 밀어보세요.</string>
+    <string name="admin_device_sub">이 정보는 외출/외박 신청시 보내지는 개인식별번호로서 전화번호, 구글 또는 페이스북 계정명이 표시됩니다. 전화번호는 신청자를 확인하기 위한 수단이며 구글, 페이스북 계정명은 전화번호가 인식이 안될경우를 위한 수단 입니다.</string>
+    <!-- 외출외박신청에 사용되는 String -->
+
+    <string name="out_result">외출 or 외박 버튼 꼭눌러주세요. 한번 신청하면 취소가 안됩니다.</string>
+    <string name="out_name">이름을 입력해 주세요.</string>
+    <string name="out_room">호실 번호를 입력해 주세요.</string>
+    <string name="out_room_sub">숫자만 입력해주세요</string>
+    <string name="out_submit">신청</string>
+    <string name="out_submit_list">신청목록</string>
+    <string name="out_send_phone_number_alert_text">악의적인 사용을 방지하기위해 외출/외박 신청시 사용자의 전화번호를 같이 전송합니다.\n\nex:) 타인의 명의로 외박신청</string>
+    <string name="out_outing">외출</string>
+    <string name="out_sleepover">외박</string>
+    <string name="out_special_friday">주말외박</string>
+    <string name="out_fill_blank">빈칸을 채워주세요</string>
+    <!-- 메뉴 String -->
+
+    <string name="user">정보</string>
+    <string name="notice">공지사항</string>
+    <string name="out">외출/외박</string>
+    <string name="calendar">일정</string>
+    <string name="restaurant">식단</string>
+    <string name="propose">건의</string>
+    <string name="setting">설정</string>
+    <string name="school">사캠/중도</string>
+
+    <!-- 자동로그인에 사용되는  String -->
+
+    <string name="autolog_set_title">자동로그인 활성 여부</string>
+    <string name="autolog_active">활성</string>
+    <string name="autolog_Inactive">비활성</string>
+    <string name="autolog_alert_autolog_fail">만일 자동로그인이 안될경우 아이디와 비밀번호를 정확히 입력했는지 확인해 주세요. 또는 자동로그인이 활성상태인지 확인해주세요.\n\n자동로그인사용에 따른 문제는 본인책임 입니다.\n\n자동로그인 시스템은 학교어플리케이션의 로그인시스템을 기반으로 만들어졌습니다.</string>
+    <string name="autolog_id">ID : </string>
+    <string name="autolog_pw">PW : </string>
+    <string name="autolog_hint_id">접속시 사용할 아이디</string>
+    <string name="autolog_hint_pw">접속시 사용할 비밀번호</string>
+    <string name="autolog_save_id">저장된 ID : </string>
+    <string name="autolog_save">저장</string>
+    <string name="activate_autolog">자동로그인을 활성/비활성 하겠습니까?</string>
+
+    <!-- 학교메뉴에 사용되는 String -->
+    <string name="login">로그인</string>
+    <string name="library_menu">왼쪽 상단의 CUK기숙사 를 누르면 대출현황, 예약도서, 이전메뉴 를 볼 수 있습니다.</string>
+    <string name="grade">확정전 성적조회 또는 확정후 성적 중 하나를 눌러주세요</string>
+
+    <!-- 건의사항 -->
+    <string name="select_propose_type">시설관련(ex : 전등, 엘리베이터, 세면대)는 국제학사 홈페이지의 Help -> 시설고장 및 신고 메뉴를 이용해주세요.</string>
+
+</resources>

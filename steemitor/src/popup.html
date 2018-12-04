@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Steemit">
+    <meta name="keywords" content="steemit, notifier">
+    <meta name="author" content="YeonJung Kim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Steemitor</title>
+
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="./css/loading.css">
+</head>
+
+<body ng-app="app" ng-controller="app-controller">
+
+<div class="loading-container">
+    <div class="loading"></div>
+    <div id="loading-text">Loading</div>
+</div>
+
+<a ng-repeat="data in list" href="{{ data.url }}" target="_blank">
+    <div class="content">
+        <div class="card">
+            <div class="info-area">
+                <img ng-src="{{ data.avatarSrc }}">
+                <div class="profile-info">
+                    <h1 class="single-line-text title">{{ data.title }}</h1>
+                    <h3 class="single-line-text">{{ data.author}}</h3>
+                    <p class="description single-line-text">{{ data.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+
+<script type="text/javascript" src="./js/lib/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="./js/lib/steem.min.js"></script>
+<script type="text/javascript" src="./js/lib/angular.min.js"></script>
+<script type="text/javascript" src="./js/popup.js"></script>
+</body>
+
+</html>
